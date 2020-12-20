@@ -19,4 +19,8 @@ return(
 </div>
 );
 }
+ Rate.defaultProps = {
+  setSearchbyerate: () => {},
+  rating: 1,
+};
 export default Rate;
